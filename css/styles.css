@@ -1,6 +1,10 @@
 /*GLOBAL*/
 body {
     font-family: 'Zilla Slab', serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .wrapper {
     width: 1440px;
@@ -23,13 +27,13 @@ body {
 .button_highlight {
     background: #7A7AAB;
 }
-.cf:after, .cf:before {
+/* .cf:after, .cf:before {
     content: " ";
     display: table;
 }
 .cf:after {
     clear: both;
-}
+} */
 
 
 /*BANNER*/
@@ -63,7 +67,11 @@ a {
     /* color: white; */
     font-weight: 700;
     text-decoration: none;
-    margin-left: 2rem;
+    margin-left: 3rem;
+}
+a:hover {
+    border-bottom: solid;
+    border-bottom-color: #7A7AAB;
 }
 .content {
     padding: 2rem 0 6rem 0;
@@ -86,6 +94,9 @@ a {
 .button_wrapper {
     text-align: center;
     margin: 3rem 0;
+}
+#learn_button {
+    margin: 0 auto;
 }
 
 /*ABOUT ME*/
@@ -112,5 +123,33 @@ a {
     text-align: right;
     font-weight: 200;
     font-size: 3rem;
+}
+
+/*CONTACT*/
+#contact {
+    background-color: #A6A8D4;
+    padding: 5rem 0 3rem 0;
+}
+#contact_title {
+    font-weight: 200;
+    font-size: 3rem;
+    color: #302F43;
+}
+#message {
+    padding-bottom: 1em;
+    color:#302F43;
+}
+#contact_button {
+    margin: 0 auto;
+}
+
+/*FOOTER*/
+footer {
+    margin: 0;
+    padding: 0;
+}
+.copyright {
+    text-align: center;
+    color: #343467;    
 }
 

@@ -124,6 +124,29 @@ a:hover {
     font-weight: 200;
     font-size: 3rem;
 }
+ul{
+    align-content: center;
+}
+li {
+    text-decoration: none;
+    display: inline-block;
+}
+.img_text {
+    border: .35rem solid #ddd;
+    border-radius: 4px;
+    padding: 50px;
+    height: 80px;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    margin: 20px;
+    background-color: #A6A8D4;
+}
+.img_text:hover {
+    border: .5rem solid #343467;
+}
 
 /*CONTACT*/
 #contact {

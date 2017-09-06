@@ -104,12 +104,21 @@ a:hover {
     background-color: #A6A8D4;
 }
 #bio{
-    padding: 5rem 0 6rem 0;
+    padding: 5rem 0 14rem 0;
 }
 #about {
     text-align: left;
     font-weight: 200;
     font-size: 3rem;
+}
+img {
+    float: left;
+    border: 5px solid white;
+    border-radius: 20%;
+    margin: 1rem;
+}
+p {
+    font-size: 20px;
 }
 
 /*PROJECTS*/

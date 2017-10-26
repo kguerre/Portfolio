@@ -111,7 +111,7 @@ a:hover {
     font-weight: 200;
     font-size: 3rem;
 }
-img {
+#headshot {
     float: left;
     border: 5px solid white;
     border-radius: 20%;
@@ -156,6 +156,11 @@ li {
 .img_text:hover {
     border: .5rem solid #343467;
 }
+.description {
+    color: white;
+    text-align: left !important;
+    font-weight: normal;
+}
 
 /*CONTACT*/
 #contact {
@@ -171,8 +176,14 @@ li {
     padding-bottom: 1em;
     color:#302F43;
 }
-#contact_button {
+.social {
     margin: 0 auto;
+    text-align: center;
+}
+.icon {
+    margin: 0 auto;
+    border: none;
+    float: right;
 }
 
 /*FOOTER*/
